@@ -1,0 +1,45 @@
+.header-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  box-shadow: 1cap 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 175, 165);
+}
+
+.first-header{
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.second-header{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-header{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-right: 30px;
+}
+
+.logo{
+  width: 180px;
+  margin-top: 7px;
+  margin-left: 8px;
+}
+
+.date, .time{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
