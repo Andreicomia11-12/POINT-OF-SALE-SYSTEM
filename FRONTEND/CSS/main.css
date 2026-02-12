@@ -167,7 +167,6 @@
 }
 
 .checkout-quantity{
-  background-color: lightblue;
   flex: 1;
   display: flex;
   justify-content: space-around;
@@ -177,14 +176,36 @@
 
 .checkout-quantity .product-count{
   font-size: 15px;
-  background-color: rgb(9, 198, 47);
   padding: 2px 5px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 35px;
+    border: none;
+    border-radius: 2px;
 }
 
 .checkout-quantity .plus{
+    background-color: rgb(187, 179, 179);
+  border-radius: 2px;
+  font-size: 14px;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.checkout-quantity .minus{
+  background-color: rgb(187, 179, 179);
+    border-radius: 2px;
+    font-size: 14px;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
 }
