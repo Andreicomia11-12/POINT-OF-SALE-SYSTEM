@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body{
@@ -14,12 +15,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .container{
   height: 70vh;
   width: 70%;
-  background-color: rgb(119, 0, 0);
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,17 +32,24 @@ body{
 
 
 .right-side{
-  background-color: rgb(249, 249, 249);
+  background-color: transparent;
   height: 100%;
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+}
+
+.right-overlay{
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
 }
 
 .right-side img{
   width: 500px;
-  height: 520px;
+  height: 520px; 
 }
 
 .left-side{
