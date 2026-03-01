@@ -15,3 +15,7 @@ Day-6 - designed the First half of the point of sale
       - here i realized my mistakes its hard to design if the text is already in the logo
         so i would try to re design and change the color of everything tommorow
         and i would try to make my code more efficient
+Day-7 - finally i settled on what the login should look like
+        i actually learned a lot on trying different designs 
+        and i settled on a simple design with the logo on the left side and 
+        form on the right side

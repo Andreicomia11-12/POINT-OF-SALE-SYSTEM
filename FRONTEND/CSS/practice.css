@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  position: fixed;
+  inset: 0;
+  background-image: url("../ASSETS/ICONS/logoTeanquilScape.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container{
+  width: 70%;
+  height: 600px;
+  display: flex;
+}
+
+.right-side{
+  flex: 1;
+  background: rgba(84, 35, 158, 0.018);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.right-side::before{
+  content: "";
+  background-color: rgba(255, 255, 255, 0.16);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.right-side img{
+  width: 500px;
+}
+
+.left-side{
+  background-color: red;
+  flex: 1;
+}

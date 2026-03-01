@@ -16,33 +16,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    
-    <div class="right-side">
-        <img src="../ASSETS/ICONS/TranquilScapelogo2.png" alt="">    
-    </div>
-    <div class="left-side">
-      <div class="welcome">Welcome</div>
-      <div class="form-container">
-        
+  <div class="main-container">
+    <div class="login-container">
+      <div class="right-side">
+        <img src="../ASSETS/ICONS/tiny_tide.aquatics.png" alt="">
+        <div>Create an account</div>
+      </div>
+      <div class="left-side">
+        <div class="login-text">Log In</div>
         <form action="POST">
-          <div class="email-container">
-              <label class="email-label" for="email">Email</label>
-              <input type="email" name="email" id="email" placeholder="Enter Email">
-              <br>
+
+          <div class="email-section">
+            <div class="email-icon">
+                <i class="fa-solid fa-user" style="color: rgb(22, 22, 22);"></i>
+            </div>
+            <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+          <br>
+
+          <div class="password-section">
+            <div class="password-icon">
+                <i class="fa-solid fa-lock" style="color: rgb(22, 22, 22);"></i>
+            </div>
+            <input type="password" name="password" id="password" placeholder="Password">
           </div>
 
-          <div class="password-container">
-              <label class="password-label" for="password">Password</label>
-              <input type="password" name="password" id="password" placeholder="Enter Password">
-              <br>
+          <div class="remember-section">
+            <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+            <div class="remember-text">Remember me</div>
           </div>
-
-
-
-          <input type="submit" name="" id="submit">
-
-
+          
         </form>
       </div>
     </div>
